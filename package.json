@@ -1,3 +1,27 @@
 {
-
+  "name": "GulpProject",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.3",
+    "express": "~4.0.0",
+    "handlebars": "^4.0.11",
+    "mongodb": "^2.2.34",
+    "nodemailer": "^0.7.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  }
 }
